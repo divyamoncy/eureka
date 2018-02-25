@@ -36,14 +36,14 @@ return [
     ],
 
     'facebook' => [
-        'client_id' => '2020425128203974',         // Your Facebook Client ID
-        'client_secret' => '6dc21f83ccacde215c4c241a7c73d36a', // Your Facebook Client Secret
+        'client_id' => '1997520890574725',         // Your Facebook Client ID
+        'client_secret' => 'a35024da4f7f13ae4185de4a49e134c4', // Your Facebook Client Secret
         'redirect' => 'http://localhost:8000/login/facebook/callback',
     ],
 
     'google' => [
-        'client_id' => '1001992079995-qnceid9k9p5o0hln8j0vaf1ujabahpig.apps.googleusercontent.com',         // Your Google Client ID
-        'client_secret' => 'jole6vveU5Gf9ZbF09dJ6_Hy', // Your Google Client Secret
+        'client_id' => '1076771282248-rfe5apls2bjspd8s8mt0htbvkfcfm721.apps.googleusercontent.com',         // Your Google Client ID
+        'client_secret' => 'NiCZ99hOnFDxRJikBz-AbcRT', // Your Google Client Secret
         'redirect' => 'http://localhost:8000/login/google/callback',
     ],
 
