@@ -67,10 +67,7 @@ class RegisterNewController extends Controller
         ]);
 
         $user = User::where('provider_id',$id)->first();
-        if($request->input('college') == 'home')
-            $user->college = "CET";
-        else
-            $user->college = $request->input('collegename');
+        $user->college = $request->input('department');
         $user->phnumber = $request->input('phno');
         $user->save();
         auth()->login($user);

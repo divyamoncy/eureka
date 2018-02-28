@@ -4,7 +4,7 @@
 <style>
   
 </style>
-<div class="row rym">
+<div class="row rym" style="color:black;">
 <h1 id="heading" align="center">Register New</h1>
 
     <div class="col-md-6 col-md-offset-3">
@@ -19,13 +19,8 @@
             </div>
            
             <div class="form-group">
-                
-                {{Form::radio('college','home',false, ['id' => 'home' , 'onchange' => 'hideother()','required'])}}College of Engineering Trivandrum<br>
-                {{Form::radio('college','others',false, ['id' => 'other' , 'onchange' => 'displayother()','required'])}}Others
-            </div>
-            <div class="form-group">
-                {{Form::label('collegename','College Name')}}
-                {{Form::text('collegename','',['class' => 'form-control','placeholder' => 'College', 'id' => 'inputother'])}}
+                {{Form::label('department','Department')}}
+                {{Form::text('department','',['class' => 'form-control','placeholder' => 'Department'])}}
             </div>
             
             {{Form::submit('Submit',['class' => 'btn btn-success editb'])}}
