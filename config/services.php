@@ -38,13 +38,13 @@ return [
     'facebook' => [
         'client_id' => '1997520890574725',         // Your Facebook Client ID
         'client_secret' => 'a35024da4f7f13ae4185de4a49e134c4', // Your Facebook Client Secret
-        'redirect' => 'http://localhost:8000/login/facebook/callback',
+        'redirect' => 'http://eurekacet.tk/login/facebook/callback',
     ],
 
     'google' => [
         'client_id' => '1076771282248-rfe5apls2bjspd8s8mt0htbvkfcfm721.apps.googleusercontent.com',         // Your Google Client ID
         'client_secret' => 'NiCZ99hOnFDxRJikBz-AbcRT', // Your Google Client Secret
-        'redirect' => 'http://localhost:8000/login/google/callback',
+        'redirect' => 'http://eurekacet.tk/login/google/callback',
     ],
 
 ];
