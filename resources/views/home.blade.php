@@ -31,7 +31,7 @@
                 </div>
                 <div class="panel-body">
                     <p>
-                       COLLEGE&nbsp&nbsp&nbsp{{ $user->college }}</br>
+                       DEPARTMENT&nbsp&nbsp&nbsp{{ $user->college }}</br>
                        LEVEL&nbsp&nbsp&nbsp{{ $user->level }} </br>
                         EMAIL&nbsp&nbsp&nbsp{{ $user->email }}</br>
                        MOBILE&nbsp&nbsp&nbsp{{ $user->phnumber }}</br>
