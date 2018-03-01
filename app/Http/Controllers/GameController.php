@@ -34,7 +34,9 @@ class GameController extends Controller
             11=> 'levels.lev11',
             12 => 'levels.lev12',
              13 => 'levels.lev13',
-              14 => 'levels.staytuned',
+             14 => 'levels.lev14',
+              15 => 'levels.lev15',
+              16=> 'levels.staytuned',
 
         );
 
@@ -73,6 +75,8 @@ class GameController extends Controller
             11 => 'alexanderfleming',
             12 => 'alanturing',
             13 => 'leonardodavinci',
+             14 => 'benjaminfranklin',
+             15 => 'efcodd',
             
         );
         $level = $user->level;
