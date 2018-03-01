@@ -76,7 +76,7 @@ class GameController extends Controller
             12 => 'alanturing',
             13 => 'leonardodavinci',
              14 => 'benjaminfranklin',
-             15 => 'efcodd',
+             15 => 'edgarfrankcodd',
             
         );
         $level = $user->level;
