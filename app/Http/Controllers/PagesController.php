@@ -17,7 +17,7 @@ class PagesController extends Controller
     public function leaderboard()
     {
         # code...
-        $users = User::all()->sortByDesc('level')->sortBy('updated_at');
+        $users = User::all()->sortBy('updated_at')->sortByDesc('level');
 
         return view('pages.leaderboard')->with('users',$users);
     }
