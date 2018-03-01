@@ -5,8 +5,8 @@
 <div class ="row rym animated fadeIn">
     
     
-    <img  src="../img/in.jpg" style="height:290px;">
-    <br><br>
+    <img  src="../img/idle.jpg" class="idl"><br><br>
+ 
     <div class="col-md-6 col-md-offset-3" style="padding-bottom: 20px;">        
             {!! Form::open(['action' => 'GameController@answer', 'method' => 'POST']) !!}
                 <div class="form-group" align="center">

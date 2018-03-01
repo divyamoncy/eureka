@@ -251,6 +251,7 @@ body{
   background-color: rgba(0,0,0,0.8);
   border-width:1px;
   border-color: black; 
+  color:white;
 }
 .form-group{
   color:black;
@@ -290,6 +291,12 @@ margin:auto;
   background-color: rgb(0,0,0);
   border-width: 0px;
   border-radius: 0px;
+}
+.img7{
+  height:200px;
+}
+.idl{
+  height:500px;
 }
 @media (max-width: 1100px) {
   .rym{
@@ -343,6 +350,12 @@ h6{
 
 #rhyme-new{
   font-size: 15px;
+}
+.img7{
+  height:50px;
+}
+.idl{
+  height:150px;
 }
 }
 

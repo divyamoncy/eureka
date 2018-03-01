@@ -27,12 +27,14 @@ class GameController extends Controller
             4 => 'levels.lev4',
             5 => 'levels.lev5',
             6 => 'levels.lev6',
-            7 => 'levels.fall',
-            8 => 'levels.level8',
-            9 => 'levels.home',
-            10 => 'levels.teaparty',
-            11=> 'levels.fakeend',
-            12 => 'levels.staytuned',
+            7 => 'levels.lev7',
+            8 => 'levels.lev8',
+            9 => 'levels.lev9',
+            10 => 'levels.lev10',
+            11=> 'levels.lev11',
+            12 => 'levels.lev12',
+             13 => 'levels.lev13',
+              14 => 'levels.staytuned',
 
         );
 
@@ -60,15 +62,17 @@ class GameController extends Controller
         $answerList = array( //Array of answers
             1 => 'ieeemedalofhonor',
             2 => 'eureka',
-            3 => 'elonmusk',
-            4 => 'tesla',
-            5 => 'faraday',
+            3 => 'elonreevemusk',
+            4 => 'nikolatesla',
+            5 => 'michaelfaraday',
             6 => 'alphago',
-            7 => 'alicepleasanceliddell',
-            8 => 'electrocutioner',
-            9 => 'daresbury',
-            10 => 'johnbonham',
-            11 => 'enihsnus',
+            7 => 'aquaregia',
+            8 => 'robertkoch',
+            9 => 'gracehopper',
+            10 => 'adalovelace',
+            11 => 'alexanderfleming',
+            12 => 'alanturing',
+            13 => 'leonardodavinci',
             
         );
         $level = $user->level;
