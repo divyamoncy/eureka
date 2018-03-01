@@ -7,7 +7,7 @@
    <!-- CSRF Token -->
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
     <title><?php echo e(config('app.name', 'Laravel')); ?></title>
-    <link rel="icon" href="ds.png">
+    <link rel="icon" href="<?php echo e(asset('img/eurr.png')); ?>">
   <!-- Styles -->
     <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->

@@ -64,6 +64,7 @@ class RegisterNewController extends Controller
         //
         $this->validate($request, [
             'phno' => 'required',
+            'department' => 'required',
         ]);
 
         $user = User::where('provider_id',$id)->first();

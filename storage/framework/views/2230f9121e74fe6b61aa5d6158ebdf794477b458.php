@@ -20,11 +20,11 @@
               <div class="collapse navbar-collapse" id="app-navbar-collapse">
                   <!-- Left Side Of Navbar -->
                   <ul class="nav navbar-nav">
-                    <li><a href="/rules">Rules and Regulations</a></li>
+                    <li><a href="/rules">Rules</a></li>
                     <li><a href="/leaderboard">Leaderboard</a></li>
                     <?php if(auth()->guard()->check()): ?>
                     <li><a href="/game">Game</a></li>
-                    <li><a href="https://www.facebook.com/obscuradrishticet/" target="_blank">Clues</a></li>
+                    <li><a href="https://www.facebook.com/IEEE.SB.CET/" target="_blank">Clues</a></li>
                     <?php endif; ?>
                   </ul>
 

@@ -1,7 +1,7 @@
 <?php $__env->startSection('content'); ?>
 <div class="container-fluid">
     <div class="jumbotron text-center">
-        <a href="https://www.facebook.com/dotslashcet" target="_blank"><img src="../img/ieeelogo.png" class="img-responsive dotlogo"></a><br>
+        <a href="https://www.facebook.com/IEEE.SB.CET" target="_blank"><img src="../img/ieeelogo.png" class="img-responsive dotlogo"></a><br>
             <h6 style="color:black; letter-spacing: 5px; line-height: 30px;"><span style="font-size:20px">IEEE SB CET</span><br>PRESENTS</h6>
             <h1 align="center" id="obtitle">Eureka</h1>
             <br>
