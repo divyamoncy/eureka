@@ -3,7 +3,7 @@
   
 </style>
 <div class="row rym">
-<h1 id="heading" align="center">Register New</h1>
+<h1 id="heading" align="center" style="color:black;">Register New</h1>
 
     <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
@@ -20,14 +20,9 @@
             </div>
            
             <div class="form-group">
-                
-                <?php echo e(Form::radio('college','home',false, ['id' => 'home' , 'onchange' => 'hideother()','required'])); ?>College of Engineering Trivandrum<br>
-                <?php echo e(Form::radio('college','others',false, ['id' => 'other' , 'onchange' => 'displayother()','required'])); ?>Others
-            </div>
-            <div class="form-group">
-                <?php echo e(Form::label('collegename','College Name')); ?>
+                <?php echo e(Form::label('department','Department')); ?>
 
-                <?php echo e(Form::text('collegename','',['class' => 'form-control','placeholder' => 'College', 'id' => 'inputother'])); ?>
+                <?php echo e(Form::text('department','',['class' => 'form-control','placeholder' => 'Department'])); ?>
 
             </div>
             

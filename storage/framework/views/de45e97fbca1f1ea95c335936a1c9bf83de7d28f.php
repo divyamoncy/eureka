@@ -1,5 +1,6 @@
 <?php $__env->startSection('content'); ?>
 <div class="container-fluid">
+    <?php echo $__env->make('layouts.messages', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <div class="jumbotron text-center">
         <a href="https://www.facebook.com/IEEE.SB.CET" target="_blank"><img src="../img/ieeelogo.png" class="img-responsive dotlogo"></a><br>
             <h6 style="color:black; letter-spacing: 5px; line-height: 30px;"><span style="font-size:20px">IEEE SB CET</span><br>PRESENTS</h6>

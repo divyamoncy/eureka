@@ -30,7 +30,7 @@
                 </div>
                 <div class="panel-body">
                     <p>
-                       COLLEGE&nbsp&nbsp&nbsp<?php echo e($user->college); ?></br>
+                       DEPARTMENT&nbsp&nbsp&nbsp<?php echo e($user->college); ?></br>
                        LEVEL&nbsp&nbsp&nbsp<?php echo e($user->level); ?> </br>
                         EMAIL&nbsp&nbsp&nbsp<?php echo e($user->email); ?></br>
                        MOBILE&nbsp&nbsp&nbsp<?php echo e($user->phnumber); ?></br>
