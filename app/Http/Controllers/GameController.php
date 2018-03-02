@@ -73,7 +73,7 @@ class GameController extends Controller
             9 => 'gracehopper',
             10 => 'adalovelace',
             11 => 'alexanderfleming',
-            12 => 'alanturing',
+            12 => 'alanmathisonturing',
             13 => 'leonardodavinci',
              14 => 'benjaminfranklin',
              15 => 'edgarfrankcodd',
